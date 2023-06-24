@@ -76,16 +76,18 @@ Now we're going to create a tilemap. Make a large grass area in the top left, pe
 with some paths running top to bottom, and a castle wall down the right hand side
 (our "stronghold").
 
-Activate the "Draw walls" function:
-
-![Draw walls button](https://raw.githubusercontent.com/andygeers/psalm-27-stronghold-tutorial/master/docs/static/wall_button.png)
-
-Fill in your "stronghold" as a solid wall, and also the area at the bottom, below your grass area:
-
-![Tilemap walls](https://raw.githubusercontent.com/andygeers/psalm-27-stronghold-tutorial/master/docs/static/tilemap_walls.png)
+Activate the "Draw walls" function, and fill in your "stronghold" as a solid wall,
+and also the area at the bottom, below your grass area (click the lightbulb icon below 
+for a picture).
 
 Finally, let's make the camera move with the player:
 ``||scene:camera follow sprite||``
+
+![Draw walls button](https://raw.githubusercontent.com/andygeers/psalm-27-stronghold-tutorial/master/docs/static/wall_button.png)
+
+Where to put your walls:
+
+![Tilemap walls](https://raw.githubusercontent.com/andygeers/psalm-27-stronghold-tutorial/master/docs/static/tilemap_walls.png)
 
 ```blocks
 tiles.setCurrentTilemap(tilemap``)

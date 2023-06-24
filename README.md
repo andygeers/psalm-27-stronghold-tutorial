@@ -74,9 +74,15 @@ Now we're going to create a tilemap. Make a large grass area in the top left, pe
 with some paths running top to bottom, and a castle wall down the right hand side
 (our "stronghold").
 
+![Tilemap](/static/tilemap.png)
+
 Activate the "Draw walls" function:
 
+![Tilemap](/static/wall_button.png)
+
 Fill in your "stronghold" as a solid wall, and also the area at the bottom, below your grass area:
+
+![Tilemap](/static/tilemap_walls.png)
 
 Finally, let's make the camera move with the player:
 ``||scene:camera follow sprite||``

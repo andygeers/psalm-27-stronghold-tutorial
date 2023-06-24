@@ -37,9 +37,6 @@ The 'x' value means how far left - try 0 to start with. The 'y' value means how 
   * Now we want to be able to move the player around using the joystick controls. Open up the "Controller" menu and add:
 ``||controller:move sprite with buttons||``
 
-  * Finally, let's make the camera move with the player:
-``||scene:camera follow sprite||``
-
 Try running the game and seeing what happens!
 
 ```blocks
@@ -81,8 +78,12 @@ Activate the "Draw walls" function:
 
 Fill in your "stronghold" as a solid wall, and also the area at the bottom, below your grass area:
 
+Finally, let's make the camera move with the player:
+``||scene:camera follow sprite||``
+
 ```blocks
 tiles.setCurrentTilemap(tilemap``)
+scene.cameraFollowSprite(player)
 ```
 
 ## Step 3: Adding some enemies

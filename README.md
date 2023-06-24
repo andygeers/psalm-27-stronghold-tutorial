@@ -29,7 +29,7 @@ then you don't need to be afraid!
 
 We're going to begin by populating our ``||loops:on start||`` block:
 
-  * Create a sprite for your player character with the ``||variables(sprites):set sprite to||`` block.\
+  * Create a sprite for your player character with the ``||variables(sprites):set sprite to||`` block.
 
   * Pick an image for your player sprite, and set it to be of type "Player".
 
@@ -78,11 +78,11 @@ with some paths running top to bottom, and a castle wall down the right hand sid
 
 Activate the "Draw walls" function:
 
-![Tilemap](/static/wall_button.png)
+![Draw walls button](https://raw.githubusercontent.com/andygeers/psalm-27-stronghold-tutorial/master/docs/static/wall_button.png)
 
 Fill in your "stronghold" as a solid wall, and also the area at the bottom, below your grass area:
 
-![Tilemap](/static/tilemap_walls.png)
+![Tilemap walls](https://raw.githubusercontent.com/andygeers/psalm-27-stronghold-tutorial/master/docs/static/tilemap_walls.png)
 
 Finally, let's make the camera move with the player:
 ``||scene:camera follow sprite||``

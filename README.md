@@ -2,7 +2,7 @@
 
 ## Introduction @showdialog
 
-Welcome to Bible Transformers club! Psalm 27 is a wonderful song of hope by King David
+Welcome to Bible Transformers! Psalm 27 is a wonderful song of hope by King David
 in the face of many enemies on every side.
 
 > The Lord is my light and my salvation—

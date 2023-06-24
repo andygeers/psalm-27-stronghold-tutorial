@@ -31,7 +31,7 @@ We're going to begin by populating our ``||loops:on start||`` block:
 
   * Create a sprite for your player character with the ``||variables(sprites):set sprite to||`` block.
 
-  * Pick an image for your player sprite, and set it to be of type "Player".
+  * Pick an image for your player sprite, and set it to be of kind "Player".
 
   * Set the player's initial position using ``||sprites:set sprite position||``.
 The 'x' value means how far left, and the 'y' value means how far from the top. Try something like x=0, y=65.
@@ -72,11 +72,14 @@ Now we're going to create a world for your character to explore!
 
 Start by adding a ``||scene:set tilemap to||`` block to the workspace.
 
-Now we're going to create a tilemap. Make a large grass area in the top left, perhaps
-with some paths running top to bottom, and a castle wall down the right hand side
-(our "stronghold").
+Now we're going to create a tilemap. 
 
-Activate the "Draw walls" function, and fill in your "stronghold" as a solid wall,
+* Start by making it bigger - change the tilemap size to 32x16
+* Make a large grass area in the top left, perhaps
+with some paths running top to bottom
+* add a castle wall down the right hand side (our "stronghold").
+
+* Activate the "Draw walls" function, and fill in your "stronghold" as a solid wall,
 and also the area at the bottom, below your grass area (click the lightbulb icon below 
 for a picture).
 
@@ -100,7 +103,7 @@ Time to add a bit of tension: let's create some enemies! Just as David was surro
 by armies, we're going to add some soldiers marching back and forth.
 
 * Start with a sprite for the first two soldiers, with the ``||variables(sprites):set sprite to||`` block.
-You'll need to create a new variable for each one, and make sure you set them to be of type "Enemy".
+You'll need to create a new variable for each one, and make sure you set them to be of kind "Enemy".
 * For each one, ``||sprites:set bounce on wall||`` to ON.
 * Set the initial position: ``||sprites:set position||``. Try 25, 20 for the first one, and 71, 78 for the second one.
 * Set an initial velocity (speed): ``||sprites:set velocity||``. Try 0, -42 for the first and 0, -72 for the second. That means that the second one will move faster than the second.
@@ -231,7 +234,7 @@ David says in v6 about "the enemies who surround me" - not just one or two!
 Let's add a slightly different kind of baddie, that marches past on a regular schedule:
 
 * Add a ``||game:on game update every 800ms||`` block
-* Once again, let's create a new sprite ``||variables(sprites):set sprite to||``, of type `Enemy` again
+* Once again, let's create a new sprite ``||variables(sprites):set sprite to||``, of kind `Enemy` again
 * ``||sprites:set position||`` and ``||sprites:set velocity||``.
 Make one at position 119,10 and one at 215,10.
 For velocity you could try 0,100 for both of them.
@@ -239,9 +242,8 @@ For velocity you could try 0,100 for both of them.
 ``||sprites:set destroy on wall||`` to ON 
 * Once again, you could ``||sprites:start trail effect||`` for extra juice.
 
-Why not add a third one heading in the opposite direction? Try it every 1000ms this time,
-position 168,120 and velocity 0,-79. This one will appear a little slower and less often,
-and will be walking UP the screen not DOWN).
+Why not add a third one heading in the opposite direction? How would you make it appear at the bottom and walk
+upwards? Try making it appear a little less often and move a bit slower.
 
 ```blocks
 let fast_1: Sprite = null
@@ -359,7 +361,7 @@ one of the guards, lets add in a big boss enemy that starts to chase you once th
 For this we'll use the ``||info:on countdown end||`` event:
 
 * ``||music:play big crash sound in background||`` to warn the player something bad is about to happen!
-* Use ``||variables(sprites):set sprite to||`` to create a boss of type `Enemy`
+* Use ``||variables(sprites):set sprite to||`` to create a boss of kind `Enemy`
 * ``||sprites:set position||`` to 0,50
 * This time we will use ``||sprites:set boss follow player with speed 40||``
 so that they chase you, wherever you are

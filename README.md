@@ -29,10 +29,12 @@ then you don't need to be afraid!
 
 We're going to begin by populating our ``||loops:on start||`` block:
 
-  * Create a sprite for your player character with the ``||variables(sprites):set sprite to||`` block. Set it to be of type "Player".
+  * Create a sprite for your player character with the ``||variables(sprites):set sprite to||`` block.\
+
+  * Pick an image for your player sprite, and set it to be of type "Player".
 
   * Set the player's initial position using ``||sprites:set sprite position||``.
-The 'x' value means how far left - try 0 to start with. The 'y' value means how far from the top - try something like 65.
+The 'x' value means how far left, and the 'y' value means how far from the top. Try something like x=0, y=65.
 
   * Now we want to be able to move the player around using the joystick controls. Open up the "Controller" menu and add:
 ``||controller:move sprite with buttons||``
@@ -73,8 +75,6 @@ Start by adding a ``||scene:set tilemap to||`` block to the workspace.
 Now we're going to create a tilemap. Make a large grass area in the top left, perhaps
 with some paths running top to bottom, and a castle wall down the right hand side
 (our "stronghold").
-
-![Tilemap](/static/tilemap.png)
 
 Activate the "Draw walls" function:
 

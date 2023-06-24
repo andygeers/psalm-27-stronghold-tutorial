@@ -1,0 +1,67 @@
+{
+    "image1": {
+        "data": "hwQQABAAAADb3d3N293dzb27u8u9u7vLvbu7y727u8u9u7vLvbu7y727u8u9u7vLvbu7y727u8u9u7u7vbu7u8zMzKvMzMyr293dzdvd3b29u7vLvbu7y727u8u9u7vLvbu7y727u8u9u7vLvbu7y727u8u9u7vLvbu7u727u8vMzMyrzMzMqw==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "wall"
+    },
+    "Kac}5S_sPY|EDPKP%_(4": {
+        "data": "hwQQABAAAAB3d3d3d3d3d3d1d3d31313d3d3d3d3d3V3d9c9d3d3d3d3d3d3d3d3d3d3d3dXd3fXfXd1d3d3d3d3d3d3d3d3d3d3dzd9d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d31313V3fdd3d3d3d3d3d3d3d3d3d3d3d3V3d303d3d3d3dw==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "gravel"
+    },
+    "hz6:s#CodQ": {
+        "data": "hwQQABAAAAB3d3d3d3d3d3d3d3d3d3d33d3d3d27u7u7u7u7u7u7u7u7u7u7u9u7u7u7u6u6u7u7vbu7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u6u6u7u7u7u7u7u727u7u7u7u7u7u7u7u7u7u7u73d3dd3d3d3d3d3d3d3d3d3d3dw==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "road"
+    },
+    "Emaa}": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIDAAAAAAAgAgAACwAAXCMisrsLAAA8IyKyCwAAAFwjIrK7CwAAACAAAAALAAAAIAAAAAAAAAAgAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "player"
+    },
+    "}lr*M**}hS?1O%]b_QI/": {
+        "data": "hwQQABAAAADd3d3du7u7u3d3d3e7u7u73d3d3bu7u7vd3d3du7u7u3d3d3e7u7u73d3d3bu7u7vd3d3du7u7u3d3d3e7u7u73d3d3bu7u7vd3d3du7u7u3d3d3e7u7u73d3d3bu7u7vd3d3du7u7u3d3d3e7u7u73d3d3bu7u7uqqqqqu7u7uw==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "tileMap"
+    },
+    "image2": {
+        "data": "hwQQABAAAADMzMzczczMzNzd3bzL3d3N3Lu7vMu9u8vcu7u8y727y9y7u7zLvbvL3Lu7vMu9u8vMzMy8y8zMzL27u7u7u7u7vbu7u7u7u8u9u7u7u7u7y727u7u7u7vLvbu7u7u7u8u9u7u7u7u7y727u7u7u7vLvbu7u7u7u8u9u7u7u7u7yw==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "myImage"
+    },
+    "9*Bql`8Kp8EqjvM66P1q": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAA8N+tqioCAAD//62qKgAAAPDfraoqAgAAAP8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemy1"
+    },
+    "yb{Lhbg;": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAADwD/D//wAAAP/diI9EAADw/9+IiAQAAAD/3YiIRAAAAPAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemy2"
+    },
+    "!N@DEWzvWu8V6|g[6oBV": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDwAAAAAAAP/dqqpVAADw/9/6qgUAAAD/3aqvVQAAAPAP8P8PAAAAAAAADwAAAAAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemy3"
+    },
+    "uUacm^6sEU[h`)@2#|/f": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAA/yAigggAAPDfLSKCAAAA//8tIoIAAADw3y0iggAAAAD/IPKCCAAAAAAA//8PAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemy4"
+    },
+    "qx-^jy@Q:j`_mN2HR;f=": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AA8PAAAA8N+N+CgCAAD//42PLwAAAPDfjYgoAgAAAP8A8P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "enemy5"
+    },
+    "eB`kHM4?B4y-Y*SWfV8y": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAD/AAAAAA8AAPAAAADwDwAAAA8AAPAAAAAA8AUADwAAAABfUIUFAgAA8A+IiCgiAAD/UIWIKCIAAP9fVYiIAgAA//9ViIgCAAD/X1WIiAIAAP8AhYgoIgAA8F+IiCgiAAAADz+D8AIAAADwDwDwDwAAAP8AAAD/AA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "boss"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
